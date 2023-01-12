@@ -12,7 +12,7 @@ const moviesSchema = new Schema(
     },{
         timestamps: true
     }
-)
+);
 
 
 const Movie = mongoose.model('movie', moviesSchema);  // ponemos movie en singular para que añada "s"
